@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lesson-13-0-2"
+version = "0.1.0"
+description = ""
+authors = ["StepanShurmin <shurmin.sa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lesson_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
